@@ -21,23 +21,24 @@ export default function Home() {
   }
   return (
 <div className='flex items-center justify-center min-h-screen bg-zinc-300'>
-    <Grid container xs={10} spacing={3} className='bg-white h-60 flex items-center justify-center align-center border-solid border-2 border-lightGray-500 rounded' style={{margin: 1}}   >
-      <Grid item xs={10}>
+    <Grid container spacing={5} className='bg-white h-60 flex items-center justify-center  align-center border-solid border-2 border-lightGray-500 rounded' style={{margin: 1}}   >
+      <Grid item lg={12} md={12} xs={12}>
       <h1 className='text-3xl font-bold'>
         Counter
       </h1>
       </Grid>
-      <Grid item xs={3} >
+      <Grid item lg={3} md={3} xs={3} >
         <TextField value={counter} id="outlined-basic" label="Counter" variant="outlined" />
         {/* <input type='text' /> */}
       </Grid>
-      <Grid item xs={4}>
+      <Grid item  lg={2} md={2}  xs={4}>
         <Button variant='contained' color='primary' onClick={incrementHandler}>
           Increment +
         </Button>
+       
+      </Grid>
+      <Grid item  lg={2} md={2}  xs={4}>
         <Button variant='contained' color='secondary' onClick={decrementHandler} 
-        // className='ml-10'
-        style={{marginLeft: 10}}
         >
           Decrement -
         </Button>
