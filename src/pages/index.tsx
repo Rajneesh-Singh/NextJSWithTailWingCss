@@ -31,13 +31,13 @@ export default function Home() {
         <TextField value={counter} id="outlined-basic" label="Counter" variant="outlined" />
         {/* <input type='text' /> */}
       </Grid>
-      <Grid item  lg={2} md={2}  xs={4}>
+      <Grid item  lg={2} md={3}  xs={4}>
         <Button variant='contained' color='primary' onClick={incrementHandler}>
           Increment +
         </Button>
        
       </Grid>
-      <Grid item  lg={2} md={2}  xs={4}>
+      <Grid item  lg={2} md={3}  xs={4}>
         <Button variant='contained' color='secondary' onClick={decrementHandler} 
         >
           Decrement -
