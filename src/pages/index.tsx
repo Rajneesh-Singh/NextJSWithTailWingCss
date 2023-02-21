@@ -60,7 +60,7 @@ export default function Home() {
       </div>
       <div  className=' lg:w-3/5 md: w-3/5 sm: w-4/5  lg:leading-[5rem] md:leading-[5rem] sm:leading-[1.2rem] mb-12 '>
         <p className='text-white lg:text-[80px] md:text-[60px]   sm: text-[44px]'>Linear is a better way
-        to build products </p>
+        to build products</p>
       </div> 
       <div  className=' lg:w-2/5 md: w-4/5 sm: w-4/5 lg:leading-[1.5rem] md:leading-[2.5rem] sm:leading-[1.2rem] mb-12' >
       <p className='text-white lg:text-[22px] md:text-[22px] sm:text-[18px]'> Meet the new standard for modern software development.Streamline issues, sprints, and product roadmaps.
