@@ -63,7 +63,7 @@ export default function Home() {
         to build products</p>
       </div> 
       <div  className=' lg:w-2/5 md: w-4/5 sm: w-4/5 lg:leading-[1.5rem] md:leading-[2.5rem] sm:leading-[1.2rem] mb-12' >
-      <p className='text-white lg:text-[22px] md:text-[22px] sm:text-[18px]'> Meet the new standard for modern software development.Streamline issues, sprints, and product roadmaps.
+      <p className='text-white lg:text-[22px] md:text-[22px] sm:text-[18px]'> Meet the new standards for modern software development.Streamline issues, sprints, and product roadmaps.
         </p>
         <p className='text-white lg:text-[22px] md:text-[22px] sm:text-[18px]'>
         
